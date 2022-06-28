@@ -3,33 +3,70 @@ html,body
     margin: 0; 
     padding: 0; 
     width: 100%; 
+	font-family: Arial; 
 }
 
 header{
 display: block; 
-background-color: black;
-color: white;  
-margin: 0; 
+background: rgb(87,87,87);
+background: linear-gradient(90deg, rgba(87,87,87,0.89) 0%, rgba(0,0,0,1) 55%, rgba(87,87,87,0.89) 100%);margin: 0; 
 width: 100%; 
 padding-top: 5px; 
-padding-bottom: 5px;
+padding-bottom: 15px;
+color: white; 
 }
 
 
+nav{
+	padding: 10px;
+	display: block; 
+	width: 100%; 
+	margin: auto; 
+	text-align: center;  
+}
+
 .profilePicSettings{
-	
 	display: block; 
 	margin-left: auto; 
 	margin-right: auto; 
 	width: 50%; 
-	width: 200px; 
+	width: 210px; 
 	height: 240px; 
 	border-radius: 50%; 
 	padding-top: 20px; 
- 
+	
 }
 
 .alignCenter{
 	text-align: center; 
 }
-	
+
+.title{
+	text-align: center; 
+	font-family: Perpetua; 
+	font-weight: bolder; 
+	font-size: 50px; 
+}
+
+#blockInformation{
+	display: inline-block; 
+	background: rgb(179, 179, 179, .90); 
+	width: 300px; 
+	height: 300px; 
+	padding-left: 20px; 
+	padding-right:  20px; 
+	text-align: center;  
+	margin: 20px;
+}
+
+#blockInformation h1.blockTitle{
+	text-align: center;
+	margin-top:-40px;
+	color: black; 
+}
+
+#blockInformation p.information{
+	text-align: center;
+	margin-top:+80px;
+	color: black; 
+}
