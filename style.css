@@ -91,7 +91,7 @@ height:40px;
 margin-top:1px;
 text-align:center;
 width:40px;}
-#idLinkedInIcon:hover, {
+#idLinkedInIcon:hover{
 	box-shadow:  10px 5px 5px black;
 	transition: .4s; 
 }
