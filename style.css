@@ -82,6 +82,10 @@ nav{
 	color: black; 
 }
 
+li{
+	margin: auto; 
+	padding: auto; 
+}
 /*Creates black footer at the bottome and centers the text inside of it*/
 footer{
 	background: black; 
