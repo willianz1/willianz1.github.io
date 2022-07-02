@@ -116,3 +116,11 @@ fa fa-github:hover{
 	box-shadow:  10px 5px 5px black;
 	transition: .4s; 
 }
+
+a:link {
+  color: black;
+}
+
+a:hover{
+	background: orange;
+}
